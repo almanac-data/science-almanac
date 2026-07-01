@@ -1,0 +1,47 @@
+id: cern-open-data
+type: dataset
+title: CERN Open Data Portal
+description: |
+  Petabyte-scale open access to particle-physics datasets, software, and documentation from CERN's LHC experiments (ALICE, ATLAS, CMS, LHCb, and others), released for research and education.
+publisher: European Organization for Nuclear Research (CERN)
+jurisdiction:
+  scope: multilateral
+  country: null
+topics:
+- particle-physics
+- open-data
+- lhc
+- global
+source:
+  canonical_url: https://opendata.cern.ch/
+access:
+  method:
+  - web
+  - api
+  - bulk
+  auth_required: false
+  auth_note: "Some derived research/analysis tools require a free CERN Open Data account; raw dataset browsing and download do not."
+  rate_limit: null
+format:
+- root
+- csv
+- json
+- parquet
+status: live
+status_since: '2026-07-01'
+status_source: curator
+observed:
+  checked: '2026-07-01'
+  reachable: true
+  http_status: 200
+  final_url: https://opendata.cern.ch/
+  redirect_chain: []
+  fingerprint_result: no-baseline
+coverage:
+  spatial: global (international collaboration; hosted at CERN, Switzerland/France)
+  temporal: 2010-present
+  cadence: irregular
+license: CC0-1.0 (dataset-dependent; see individual collection terms)
+attribution: CERN Open Data Portal
+notes: |
+  Verified reachable this session (HTTP 200). Seeded as this vertical's first international (non-US) source per operator request to seed the new verticals international-first.

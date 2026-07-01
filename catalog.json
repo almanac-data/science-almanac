@@ -7,47 +7,59 @@
   },
   "entries": [
     {
-      "id": "example-dataset",
+      "id": "cern-open-data",
       "type": "dataset",
-      "title": "Example Dataset (replace this with a real entry)",
-      "description": "A placeholder catalog entry so the index builds and CI passes on a fresh template. Delete this file once you have added your first real dataset.\n",
-      "publisher": "Example Agency",
+      "title": "CERN Open Data Portal",
+      "description": "Petabyte-scale open access to particle-physics datasets, software, and documentation from CERN's LHC experiments (ALICE, ATLAS, CMS, LHCb, and others), released for research and education.\n",
+      "publisher": "European Organization for Nuclear Research (CERN)",
+      "jurisdiction": {
+        "scope": "multilateral",
+        "country": null
+      },
       "topics": [
-        "example"
+        "particle-physics",
+        "open-data",
+        "lhc",
+        "global"
       ],
       "source": {
-        "canonical_url": "https://example.org"
+        "canonical_url": "https://opendata.cern.ch/"
       },
       "access": {
         "method": [
-          "web"
+          "web",
+          "api",
+          "bulk"
         ],
         "auth_required": false,
-        "auth_note": null,
+        "auth_note": "Some derived research/analysis tools require a free CERN Open Data account; raw dataset browsing and download do not.",
         "rate_limit": null
       },
       "format": [
-        "html"
+        "root",
+        "csv",
+        "json",
+        "parquet"
       ],
       "status": "live",
-      "status_since": "2026-06-29",
-      "status_source": "auto",
+      "status_since": "2026-07-01",
+      "status_source": "curator",
       "observed": {
-        "checked": "2026-06-29",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null,
+        "checked": "2026-07-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://opendata.cern.ch/",
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
       "coverage": {
-        "spatial": "global",
-        "temporal": "n/a",
-        "cadence": "static"
+        "spatial": "global (international collaboration; hosted at CERN, Switzerland/France)",
+        "temporal": "2010-present",
+        "cadence": "irregular"
       },
-      "license": "CC0-1.0",
-      "attribution": "Example Agency",
-      "notes": "This is a template stub. See SETUP.md for how to stand up your own almanac vertical, then replace this entry with real datasets.\n"
+      "license": "CC0-1.0 (dataset-dependent; see individual collection terms)",
+      "attribution": "CERN Open Data Portal",
+      "notes": "Verified reachable this session (HTTP 200). Seeded as this vertical's first international (non-US) source per operator request to seed the new verticals international-first.\n"
     }
   ]
 }
