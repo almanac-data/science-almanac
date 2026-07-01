@@ -1,6 +1,6 @@
 {
-  "name": "Example Almanac",
-  "description": "An open, versioned index of public example data.",
+  "name": "Science Almanac",
+  "description": "An open, versioned index of public scientific research data.",
   "count": 1,
   "by_status": {
     "live": 1
