@@ -37,7 +37,8 @@ coverage:
   spatial: solar system bodies (mission-dependent)
   temporal: decades of planetary missions to present
   cadence: irregular
-license: unverified — NASA mission data; no license stated on the PDS home page
+license: unverified — no PDS-wide licence; JPL-supplied material may be used for any purpose with credit (JPL Data and Documentation Use Policy, 2013)
 attribution: NASA Planetary Data System
 notes: |
-  Human-verified 2026-10-31: HTTP 200. The page lists recent data releases, among them "Artemis II Mission Data" (October 7, 2026) and earlier Mars Reconnaissance Orbiter, Juno, Dawn, InSight, and Odyssey releases. The archive is built on the PDS4 (and legacy PDS3) standards. API availability comes from PDS's usual search services and wasn't checked. NASA data is generally released without restriction, but no license is stated here, so the license is left unverified.
+  Human-verified 2026-10-31: HTTP 200. The page lists recent data releases, among them "Artemis II Mission Data" (October 7, 2026) and earlier Mars Reconnaissance Orbiter, Juno, Dawn, InSight, and Odyssey releases. The archive is built on the PDS4 (and legacy PDS3) standards. API availability comes from PDS's usual search services and wasn't checked.
+  Licence checked 2026-10-31: PDS's citation page (https://pds.nasa.gov/datastandards/citing/) gives citation guidance only. The JPL Data and Documentation Use Policy for PDS (https://pds-geosciences.wustl.edu/jplcopyright.html, last updated 2013) says "Documents, images, videos, and data supplied to the Planetary Data System (PDS) by JPL may be used by any person for any purpose without prior permission", subject to a credit line, no warranty and no implied endorsement. It covers only JPL-supplied material, so the archive-wide licence stays unverified.

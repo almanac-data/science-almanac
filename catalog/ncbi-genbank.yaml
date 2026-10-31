@@ -37,7 +37,8 @@ coverage:
   spatial: global (all submitted organisms)
   temporal: 1982-present
   cadence: irregular
-license: unverified — submitter-provided sequence data; NCBI's reuse terms not checked here
+license: unverified — NCBI places no restrictions on use or distribution, but submitters may claim IP rights in their data; no licence is granted
 attribution: NCBI GenBank (International Nucleotide Sequence Database Collaboration)
 notes: |
-  Human-verified 2026-10-31: HTTP 200. The page describes GenBank as "the NIH genetic sequence database, an annotated collection of all publicly available DNA sequences" within the INSDC, whose three partners "exchange data on a daily basis". It says "A GenBank release occurs every two months and is available from the ftp site". The schema has no bimonthly cadence, so it's recorded as irregular. Not checked here: API access (NCBI E-utilities), the 1982 start year, and reuse terms. The sequences are submitted by researchers, so the license is left unverified rather than assumed to be public domain.
+  Human-verified 2026-10-31: HTTP 200. The page describes GenBank as "the NIH genetic sequence database, an annotated collection of all publicly available DNA sequences" within the INSDC, whose three partners "exchange data on a daily basis". It says "A GenBank release occurs every two months and is available from the ftp site". The schema has no bimonthly cadence, so it's recorded as irregular. Not checked here: API access (NCBI E-utilities) and the 1982 start year.
+  Licence checked 2026-10-31: GenBank's about page (https://www.ncbi.nlm.nih.gov/genbank/about/) says "NCBI places no restrictions on the use or distribution of the GenBank data. However, some submitters may claim patent, copyright, or other intellectual property rights in all or a portion of the data they have submitted." NCBI's policies (https://www.ncbi.nlm.nih.gov/home/about/policies/) add that there is no transfer of rights from submitters to NCBI; their public-domain sentence covers US Government web pages, not the sequences. So the licence stays unverified, and is never public domain.
