@@ -1,0 +1,44 @@
+id: nasa-earthdata
+type: dataset
+title: NASA Earthdata
+description: |
+  NASA's gateway to Earth observation data from its Earth Science Data Systems program and Distributed Active Archive Centers — atmosphere, land, ocean, cryosphere, and more — with a common metadata catalog, search tools, and APIs.
+publisher: U.S. National Aeronautics and Space Administration (NASA), Earth Science Data Systems (ESDS)
+jurisdiction:
+  scope: national
+  country: US
+topics:
+- earth-observation
+- remote-sensing
+- satellite-data
+- earth-science
+source:
+  canonical_url: https://www.earthdata.nasa.gov/
+access:
+  method:
+  - web
+  - api
+  - bulk
+  auth_required: true
+  auth_note: Most data downloads require a free Earthdata Login account; catalog search does not.
+  rate_limit: null
+format:
+- netcdf
+- hdf5
+- geotiff
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: global
+  temporal: decades of satellite and airborne missions to present
+  cadence: daily
+license: CC0-1.0 (NASA data use guidance; unless a dataset is marked with a use restriction or license)
+attribution: NASA Earthdata; cite the specific dataset DOIs used
+notes: |
+  Human-verified 2026-10-31: HTTP 200. The site lists DAACs (ASF, GES DISC, LP DAAC, NSIDC, ORNL, PO.DAAC, ...), APIs, the Common Metadata Repository, and Earthdata Login. NASA's Data Use and Citation Guidance (https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance) states "Unless the content is marked with a use restriction or license, data provided from a NASA-led mission are licensed as Creative Commons Zero (CC0)". Some specific NASA datasets are already cataloged in climate-almanac (nasa-gistemp, nasa-grace-land-mascons); this entry is the gateway. Three things come from Earthdata's usual practice and weren't checked here: the Earthdata Login requirement, the formats, and the daily cadence.
