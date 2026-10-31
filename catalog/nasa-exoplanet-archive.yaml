@@ -1,0 +1,44 @@
+id: nasa-exoplanet-archive
+type: dataset
+title: NASA Exoplanet Archive
+description: |
+  NASA's catalog of confirmed exoplanets and their host stars, plus mission data from Kepler, K2, TESS, and ground-based surveys, served through interactive tables, a TAP interface, an API, and bulk downloads.
+publisher: NASA Exoplanet Science Institute (NExScI), Caltech/IPAC, for NASA
+jurisdiction:
+  scope: national
+  country: US
+topics:
+- astronomy
+- exoplanets
+- kepler
+- tess
+source:
+  canonical_url: https://exoplanetarchive.ipac.caltech.edu/
+access:
+  method:
+  - web
+  - api
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+- votable
+- json
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: astronomical (all-sky)
+  temporal: discoveries to present
+  cadence: weekly
+license: unverified — no license stated; the archive asks for a standard acknowledgment in publications
+attribution: This research has made use of the NASA Exoplanet Archive, which is operated by the California Institute of Technology, under contract with NASA under the Exoplanet Exploration Program.
+notes: |
+  Human-verified 2026-10-31: HTTP 200. The page reports "6,451 Confirmed Planets" as of 10/15/2026 and lists a Table Access Protocol (TAP) interface, an API, and bulk data download. The acknowledgment page (https://exoplanetarchive.ipac.caltech.edu/docs/acknowledge.html) gives the standard acknowledgment text, used here as the attribution. It's operated by Caltech under NASA contract, so the jurisdiction is recorded as national (US). Several details come from the archive's usual practice, not from these pages: the weekly cadence and the votable/json formats. No license is stated, so none is claimed.

@@ -1,0 +1,43 @@
+id: nasa-planetary-data-system
+type: dataset
+title: NASA Planetary Data System (PDS)
+description: |
+  NASA's long-term archive of digital data from planetary science missions — Mars, Juno, Dawn, InSight, Artemis, and more — curated by discipline nodes and released to the public on a regular schedule.
+publisher: U.S. National Aeronautics and Space Administration (NASA), Planetary Data System
+jurisdiction:
+  scope: national
+  country: US
+topics:
+- planetary-science
+- space-missions
+- mars
+- archive
+source:
+  canonical_url: https://pds.nasa.gov/
+access:
+  method:
+  - web
+  - bulk
+  - api
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- pds4
+- pds3
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: solar system bodies (mission-dependent)
+  temporal: decades of planetary missions to present
+  cadence: irregular
+license: unverified — NASA mission data; no license stated on the PDS home page
+attribution: NASA Planetary Data System
+notes: |
+  Human-verified 2026-10-31: HTTP 200. The page lists recent data releases, among them "Artemis II Mission Data" (October 7, 2026) and earlier Mars Reconnaissance Orbiter, Juno, Dawn, InSight, and Odyssey releases. The archive is built on the PDS4 (and legacy PDS3) standards. API availability comes from PDS's usual search services and wasn't checked. NASA data is generally released without restriction, but no license is stated here, so the license is left unverified.
