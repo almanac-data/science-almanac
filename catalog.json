@@ -1,9 +1,9 @@
 {
   "name": "Science Almanac",
   "description": "An open, versioned index of public scientific research data.",
-  "count": 7,
+  "count": 8,
   "by_status": {
-    "live": 7
+    "live": 8
   },
   "entries": [
     {
@@ -367,6 +367,58 @@
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Geological Survey, ANSS Comprehensive Earthquake Catalog (ComCat)",
       "notes": "Human-verified 2026-10-31: HTTP 200. The page describes \"an implementation of the FDSN Event Web Service Specification\" for custom earthquake searches and recommends the Real-time GeoJSON Feeds for automated display. Two things come from the service's usual documentation, not this page: the output formats and the name ComCat. The catalog updates continuously; the schema has no continuous value, so cadence is recorded as daily.\n"
+    },
+    {
+      "id": "wwpdb-protein-data-bank",
+      "type": "dataset",
+      "title": "Protein Data Bank (wwPDB / RCSB PDB)",
+      "description": "The single global archive of experimentally determined 3D structures of proteins, nucleic acids, and complexes, managed by the Worldwide PDB partnership; RCSB PDB is its U.S. data center, providing search, download services, and web APIs.\n",
+      "publisher": "Worldwide Protein Data Bank (wwPDB); RCSB Protein Data Bank (U.S. data center)",
+      "jurisdiction": {
+        "scope": "international-ngo",
+        "country": null
+      },
+      "topics": [
+        "structural-biology",
+        "proteins",
+        "molecular-structures",
+        "bioinformatics"
+      ],
+      "source": {
+        "canonical_url": "https://www.rcsb.org/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "api",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "mmcif",
+        "pdb",
+        "bcif"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "not applicable (molecular structures)",
+        "temporal": "1971-present",
+        "cadence": "weekly"
+      },
+      "license": "CC0-1.0 (wwPDB usage policy)",
+      "attribution": "wwPDB / RCSB Protein Data Bank; users are encouraged to cite the original structure authors",
+      "notes": "Human-verified 2026-10-31: rcsb.org returned HTTP 200, listing Download Coordinates and Experimental Data, File Download Services, and Web APIs. The wwPDB usage policy (https://www.wwpdb.org/about/usage-policies, HTTP 200) states \"Data files contained in the PDB archive are available under the CC0 1.0 Universal (CC0 1.0) Public Domain Dedication\" and encourages crediting the original authors. Three details come from the archive's usual description and weren't checked: the 1971 founding, the weekly release cadence, and the formats. The jurisdiction is international-ngo because wwPDB is an international consortium of data centres in the US, Europe, and Japan, not a treaty body.\n"
     }
   ]
 }
