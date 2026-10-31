@@ -1,9 +1,9 @@
 {
   "name": "Science Almanac",
   "description": "An open, versioned index of public scientific research data.",
-  "count": 2,
+  "count": 9,
   "by_status": {
-    "live": 2
+    "live": 9
   },
   "entries": [
     {
@@ -113,6 +113,365 @@
       "license": "CC-BY-4.0 (Eurostat copyright notice and free re-use of data)",
       "attribution": "Eurostat",
       "notes": "Human-verified 2026-10-31: HTTP 200 (page title \"Database - Science, technology, and innovation - Eurostat\"). Eurostat's copyright notice (https://ec.europa.eu/eurostat/help/copyright-notice) licenses its content under CC BY 4.0. The topics in the description reflect Eurostat's usual STI tables and weren't checked dataset by dataset. API and bulk access go through Eurostat's general dissemination services.\n"
+    },
+    {
+      "id": "nasa-exoplanet-archive",
+      "type": "dataset",
+      "title": "NASA Exoplanet Archive",
+      "description": "NASA's catalog of confirmed exoplanets and their host stars, plus mission data from Kepler, K2, TESS, and ground-based surveys, served through interactive tables, a TAP interface, an API, and bulk downloads.\n",
+      "publisher": "NASA Exoplanet Science Institute (NExScI), Caltech/IPAC, for NASA",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "astronomy",
+        "exoplanets",
+        "kepler",
+        "tess"
+      ],
+      "source": {
+        "canonical_url": "https://exoplanetarchive.ipac.caltech.edu/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "api",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "votable",
+        "json"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "astronomical (all-sky)",
+        "temporal": "discoveries to present",
+        "cadence": "weekly"
+      },
+      "license": "unverified — no license stated; the archive asks for a standard acknowledgment in publications",
+      "attribution": "This research has made use of the NASA Exoplanet Archive, which is operated by the California Institute of Technology, under contract with NASA under the Exoplanet Exploration Program.",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page reports \"6,451 Confirmed Planets\" as of 10/15/2026 and lists a Table Access Protocol (TAP) interface, an API, and bulk data download. The acknowledgment page (https://exoplanetarchive.ipac.caltech.edu/docs/acknowledge.html) gives the standard acknowledgment text, used here as the attribution. It's operated by Caltech under NASA contract, so the jurisdiction is recorded as national (US). Several details come from the archive's usual practice, not from these pages: the weekly cadence and the votable/json formats. No license is stated, so none is claimed.\n"
+    },
+    {
+      "id": "nasa-planetary-data-system",
+      "type": "dataset",
+      "title": "NASA Planetary Data System (PDS)",
+      "description": "NASA's long-term archive of digital data from planetary science missions — Mars, Juno, Dawn, InSight, Artemis, and more — curated by discipline nodes and released to the public on a regular schedule.\n",
+      "publisher": "U.S. National Aeronautics and Space Administration (NASA), Planetary Data System",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "planetary-science",
+        "space-missions",
+        "mars",
+        "archive"
+      ],
+      "source": {
+        "canonical_url": "https://pds.nasa.gov/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk",
+          "api"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "pds4",
+        "pds3"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "solar system bodies (mission-dependent)",
+        "temporal": "decades of planetary missions to present",
+        "cadence": "irregular"
+      },
+      "license": "unverified — NASA mission data; no license stated on the PDS home page",
+      "attribution": "NASA Planetary Data System",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page lists recent data releases, among them \"Artemis II Mission Data\" (October 7, 2026) and earlier Mars Reconnaissance Orbiter, Juno, Dawn, InSight, and Odyssey releases. The archive is built on the PDS4 (and legacy PDS3) standards. API availability comes from PDS's usual search services and wasn't checked. NASA data is generally released without restriction, but no license is stated here, so the license is left unverified.\n"
+    },
+    {
+      "id": "ncbi-genbank",
+      "type": "dataset",
+      "title": "NCBI GenBank",
+      "description": "The NIH genetic sequence database: an annotated collection of all publicly available DNA sequences, part of the International Nucleotide Sequence Database Collaboration with DDBJ and ENA, which exchange data daily.\n",
+      "publisher": "U.S. National Library of Medicine, National Center for Biotechnology Information (NCBI)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "genomics",
+        "dna-sequences",
+        "bioinformatics",
+        "insdc"
+      ],
+      "source": {
+        "canonical_url": "https://www.ncbi.nlm.nih.gov/genbank/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "ftp",
+          "api"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "genbank-flatfile",
+        "fasta"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "global (all submitted organisms)",
+        "temporal": "1982-present",
+        "cadence": "irregular"
+      },
+      "license": "unverified — submitter-provided sequence data; NCBI's reuse terms not checked here",
+      "attribution": "NCBI GenBank (International Nucleotide Sequence Database Collaboration)",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page describes GenBank as \"the NIH genetic sequence database, an annotated collection of all publicly available DNA sequences\" within the INSDC, whose three partners \"exchange data on a daily basis\". It says \"A GenBank release occurs every two months and is available from the ftp site\". The schema has no bimonthly cadence, so it's recorded as irregular. Not checked here: API access (NCBI E-utilities), the 1982 start year, and reuse terms. The sequences are submitted by researchers, so the license is left unverified rather than assumed to be public domain.\n"
+    },
+    {
+      "id": "nih-reporter",
+      "type": "dataset",
+      "title": "NIH RePORTER",
+      "description": "NIH's searchable database of federally funded biomedical research projects — awards, investigators, organizations, funding amounts, and linked publications and patents — with an API and the ExPORTER bulk downloads.\n",
+      "publisher": "U.S. National Institutes of Health (NIH)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "research-funding",
+        "grants",
+        "biomedical-research",
+        "publications"
+      ],
+      "source": {
+        "canonical_url": "https://reporter.nih.gov/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "api",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "json",
+        "csv"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (NIH and other HHS-funded research, worldwide recipients)",
+        "temporal": "multiple decades of fiscal years",
+        "cadence": "weekly"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "NIH RePORTER",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The site renders only with JavaScript; headless Chromium shows the RePORTER search with links to FAQs, the API, and ExPORTER. The old ExPORTER URL https://report.nih.gov/exporter returned 404 to headless Chromium, so the bulk-download location should be confirmed by a steward. Two things are assumed from RePORTER's usual description and weren't checked: the weekly cadence and the inclusion of other HHS agencies' projects.\n"
+    },
+    {
+      "id": "nsf-ncses",
+      "type": "dataset",
+      "title": "NSF National Center for Science and Engineering Statistics (NCSES)",
+      "description": "The U.S. federal statistical agency for science and engineering: surveys and data on research and development funding and performance, the science and engineering workforce, STEM education, and innovation, including the Science and Engineering Indicators.\n",
+      "publisher": "U.S. National Science Foundation, National Center for Science and Engineering Statistics (NCSES)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "research-and-development",
+        "stem-workforce",
+        "stem-education",
+        "innovation"
+      ],
+      "source": {
+        "canonical_url": "https://ncses.nsf.gov/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "xlsx"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (with international comparisons in Indicators)",
+        "temporal": "varies by survey",
+        "cadence": "event"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "National Center for Science and Engineering Statistics, National Science Foundation",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page lists areas of interest (Innovation & Global Competitiveness, Research & Development Funding & Performance, Science & Engineering Workforce, STEM Education), a surveys catalog, a release schedule, and a data explorer. NCSES runs many surveys, each on its own schedule, so cadence is event. The formats are assumed from NCSES's usual table downloads and weren't checked.\n"
+    },
+    {
+      "id": "usgs-earthquake-catalog",
+      "type": "dataset",
+      "title": "USGS Earthquake Catalog (ComCat) Event Web Service",
+      "description": "The USGS Advanced National Seismic System comprehensive earthquake catalog, queryable through an FDSN Event Web Service by time, location, magnitude, and more, with real-time GeoJSON feeds for recent events.\n",
+      "publisher": "U.S. Geological Survey (USGS), Earthquake Hazards Program",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "earthquakes",
+        "seismology",
+        "hazards",
+        "real-time",
+        "global"
+      ],
+      "source": {
+        "canonical_url": "https://earthquake.usgs.gov/fdsnws/event/1/"
+      },
+      "access": {
+        "method": [
+          "api",
+          "web"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "geojson",
+        "csv",
+        "quakeml"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "global (most complete for the United States)",
+        "temporal": "historical to real-time",
+        "cadence": "daily"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Geological Survey, ANSS Comprehensive Earthquake Catalog (ComCat)",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page describes \"an implementation of the FDSN Event Web Service Specification\" for custom earthquake searches and recommends the Real-time GeoJSON Feeds for automated display. Two things come from the service's usual documentation, not this page: the output formats and the name ComCat. The catalog updates continuously; the schema has no continuous value, so cadence is recorded as daily.\n"
+    },
+    {
+      "id": "wwpdb-protein-data-bank",
+      "type": "dataset",
+      "title": "Protein Data Bank (wwPDB / RCSB PDB)",
+      "description": "The single global archive of experimentally determined 3D structures of proteins, nucleic acids, and complexes, managed by the Worldwide PDB partnership; RCSB PDB is its U.S. data center, providing search, download services, and web APIs.\n",
+      "publisher": "Worldwide Protein Data Bank (wwPDB); RCSB Protein Data Bank (U.S. data center)",
+      "jurisdiction": {
+        "scope": "international-ngo",
+        "country": null
+      },
+      "topics": [
+        "structural-biology",
+        "proteins",
+        "molecular-structures",
+        "bioinformatics"
+      ],
+      "source": {
+        "canonical_url": "https://www.rcsb.org/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "api",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "mmcif",
+        "pdb",
+        "bcif"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "not applicable (molecular structures)",
+        "temporal": "1971-present",
+        "cadence": "weekly"
+      },
+      "license": "CC0-1.0 (wwPDB usage policy)",
+      "attribution": "wwPDB / RCSB Protein Data Bank; users are encouraged to cite the original structure authors",
+      "notes": "Human-verified 2026-10-31: rcsb.org returned HTTP 200, listing Download Coordinates and Experimental Data, File Download Services, and Web APIs. The wwPDB usage policy (https://www.wwpdb.org/about/usage-policies, HTTP 200) states \"Data files contained in the PDB archive are available under the CC0 1.0 Universal (CC0 1.0) Public Domain Dedication\" and encourages crediting the original authors. Three details come from the archive's usual description and weren't checked: the 1971 founding, the weekly release cadence, and the formats. The jurisdiction is international-ngo because wwPDB is an international consortium of data centres in the US, Europe, and Japan, not a treaty body.\n"
     }
   ]
 }
