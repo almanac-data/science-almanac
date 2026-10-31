@@ -1,9 +1,9 @@
 {
   "name": "Science Almanac",
   "description": "An open, versioned index of public scientific research data.",
-  "count": 2,
+  "count": 3,
   "by_status": {
-    "live": 2
+    "live": 3
   },
   "entries": [
     {
@@ -112,6 +112,56 @@
       "license": "unverified — no license stated; the archive asks for a standard acknowledgment in publications",
       "attribution": "This research has made use of the NASA Exoplanet Archive, which is operated by the California Institute of Technology, under contract with NASA under the Exoplanet Exploration Program.",
       "notes": "Human-verified 2026-10-31: HTTP 200. The page reports \"6,451 Confirmed Planets\" as of 10/15/2026 and lists a Table Access Protocol (TAP) interface, an API, and bulk data download. The acknowledgment page (https://exoplanetarchive.ipac.caltech.edu/docs/acknowledge.html) gives the standard acknowledgment text, used here as the attribution. It's operated by Caltech under NASA contract, so the jurisdiction is recorded as national (US). Several details come from the archive's usual practice, not from these pages: the weekly cadence and the votable/json formats. No license is stated, so none is claimed.\n"
+    },
+    {
+      "id": "nsf-ncses",
+      "type": "dataset",
+      "title": "NSF National Center for Science and Engineering Statistics (NCSES)",
+      "description": "The U.S. federal statistical agency for science and engineering: surveys and data on research and development funding and performance, the science and engineering workforce, STEM education, and innovation, including the Science and Engineering Indicators.\n",
+      "publisher": "U.S. National Science Foundation, National Center for Science and Engineering Statistics (NCSES)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "research-and-development",
+        "stem-workforce",
+        "stem-education",
+        "innovation"
+      ],
+      "source": {
+        "canonical_url": "https://ncses.nsf.gov/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "xlsx"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (with international comparisons in Indicators)",
+        "temporal": "varies by survey",
+        "cadence": "event"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "National Center for Science and Engineering Statistics, National Science Foundation",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page lists areas of interest (Innovation & Global Competitiveness, Research & Development Funding & Performance, Science & Engineering Workforce, STEM Education), a surveys catalog, a release schedule, and a data explorer. NCSES runs many surveys, each on its own schedule, so cadence is event. The formats are assumed from NCSES's usual table downloads and weren't checked.\n"
     }
   ]
 }
