@@ -1,0 +1,43 @@
+id: ncbi-genbank
+type: dataset
+title: NCBI GenBank
+description: |
+  The NIH genetic sequence database: an annotated collection of all publicly available DNA sequences, part of the International Nucleotide Sequence Database Collaboration with DDBJ and ENA, which exchange data daily.
+publisher: U.S. National Library of Medicine, National Center for Biotechnology Information (NCBI)
+jurisdiction:
+  scope: national
+  country: US
+topics:
+- genomics
+- dna-sequences
+- bioinformatics
+- insdc
+source:
+  canonical_url: https://www.ncbi.nlm.nih.gov/genbank/
+access:
+  method:
+  - web
+  - ftp
+  - api
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- genbank-flatfile
+- fasta
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: global (all submitted organisms)
+  temporal: 1982-present
+  cadence: irregular
+license: unverified — submitter-provided sequence data; NCBI's reuse terms not checked here
+attribution: NCBI GenBank (International Nucleotide Sequence Database Collaboration)
+notes: |
+  Human-verified 2026-10-31: HTTP 200. The page describes GenBank as "the NIH genetic sequence database, an annotated collection of all publicly available DNA sequences" within the INSDC, whose three partners "exchange data on a daily basis". It says "A GenBank release occurs every two months and is available from the ftp site". The schema has no bimonthly cadence, so it's recorded as irregular. Not checked here: API access (NCBI E-utilities), the 1982 start year, and reuse terms. The sequences are submitted by researchers, so the license is left unverified rather than assumed to be public domain.
