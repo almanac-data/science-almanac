@@ -57,9 +57,9 @@
         "temporal": "2010-present",
         "cadence": "irregular"
       },
-      "license": "CC0-1.0 (dataset-dependent; see individual collection terms)",
+      "license": "CC0-1.0 (CERN Open Data Portal terms of use; software under its own licences, often GPL)",
       "attribution": "CERN Open Data Portal",
-      "notes": "Verified reachable this session (HTTP 200). Seeded as this vertical's first international (non-US) source per operator request to seed the new verticals international-first.\n"
+      "notes": "Verified reachable this session (HTTP 200). Seeded as this vertical's first international (non-US) source per operator request to seed the new verticals international-first.\nLicence checked 2026-10-31: the terms of use (https://opendata.cern.ch/docs/terms-of-use) say \"All metadata and datasets in the CERN Open Data Portal are made available under the terms of the CC0 waiver.\" Other content keeps its own licence; software is usually GPL. The earlier \"dataset-dependent\" caveat did not apply to datasets.\n"
     },
     {
       "id": "eurostat-science-technology-innovation-database",
@@ -265,9 +265,9 @@
         "temporal": "decades of planetary missions to present",
         "cadence": "irregular"
       },
-      "license": "unverified — NASA mission data; no license stated on the PDS home page",
+      "license": "unverified — no PDS-wide licence; JPL-supplied material may be used for any purpose with credit (JPL Data and Documentation Use Policy, 2013)",
       "attribution": "NASA Planetary Data System",
-      "notes": "Human-verified 2026-10-31: HTTP 200. The page lists recent data releases, among them \"Artemis II Mission Data\" (October 7, 2026) and earlier Mars Reconnaissance Orbiter, Juno, Dawn, InSight, and Odyssey releases. The archive is built on the PDS4 (and legacy PDS3) standards. API availability comes from PDS's usual search services and wasn't checked. NASA data is generally released without restriction, but no license is stated here, so the license is left unverified.\n"
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page lists recent data releases, among them \"Artemis II Mission Data\" (October 7, 2026) and earlier Mars Reconnaissance Orbiter, Juno, Dawn, InSight, and Odyssey releases. The archive is built on the PDS4 (and legacy PDS3) standards. API availability comes from PDS's usual search services and wasn't checked.\nLicence checked 2026-10-31: PDS's citation page (https://pds.nasa.gov/datastandards/citing/) gives citation guidance only. The JPL Data and Documentation Use Policy for PDS (https://pds-geosciences.wustl.edu/jplcopyright.html, last updated 2013) says \"Documents, images, videos, and data supplied to the Planetary Data System (PDS) by JPL may be used by any person for any purpose without prior permission\", subject to a credit line, no warranty and no implied endorsement. It covers only JPL-supplied material, so the archive-wide licence stays unverified.\n"
     },
     {
       "id": "ncbi-genbank",
@@ -316,9 +316,9 @@
         "temporal": "1982-present",
         "cadence": "irregular"
       },
-      "license": "unverified — submitter-provided sequence data; NCBI's reuse terms not checked here",
+      "license": "unverified — NCBI places no restrictions on use or distribution, but submitters may claim IP rights in their data; no licence is granted",
       "attribution": "NCBI GenBank (International Nucleotide Sequence Database Collaboration)",
-      "notes": "Human-verified 2026-10-31: HTTP 200. The page describes GenBank as \"the NIH genetic sequence database, an annotated collection of all publicly available DNA sequences\" within the INSDC, whose three partners \"exchange data on a daily basis\". It says \"A GenBank release occurs every two months and is available from the ftp site\". The schema has no bimonthly cadence, so it's recorded as irregular. Not checked here: API access (NCBI E-utilities), the 1982 start year, and reuse terms. The sequences are submitted by researchers, so the license is left unverified rather than assumed to be public domain.\n"
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page describes GenBank as \"the NIH genetic sequence database, an annotated collection of all publicly available DNA sequences\" within the INSDC, whose three partners \"exchange data on a daily basis\". It says \"A GenBank release occurs every two months and is available from the ftp site\". The schema has no bimonthly cadence, so it's recorded as irregular. Not checked here: API access (NCBI E-utilities) and the 1982 start year.\nLicence checked 2026-10-31: GenBank's about page (https://www.ncbi.nlm.nih.gov/genbank/about/) says \"NCBI places no restrictions on the use or distribution of the GenBank data. However, some submitters may claim patent, copyright, or other intellectual property rights in all or a portion of the data they have submitted.\" NCBI's policies (https://www.ncbi.nlm.nih.gov/home/about/policies/) add that there is no transfer of rights from submitters to NCBI; their public-domain sentence covers US Government web pages, not the sequences. So the licence stays unverified, and is never public domain.\n"
     },
     {
       "id": "nih-reporter",

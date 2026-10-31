@@ -41,7 +41,8 @@ coverage:
   spatial: global (international collaboration; hosted at CERN, Switzerland/France)
   temporal: 2010-present
   cadence: irregular
-license: CC0-1.0 (dataset-dependent; see individual collection terms)
+license: CC0-1.0 (CERN Open Data Portal terms of use; software under its own licences, often GPL)
 attribution: CERN Open Data Portal
 notes: |
   Verified reachable this session (HTTP 200). Seeded as this vertical's first international (non-US) source per operator request to seed the new verticals international-first.
+  Licence checked 2026-10-31: the terms of use (https://opendata.cern.ch/docs/terms-of-use) say "All metadata and datasets in the CERN Open Data Portal are made available under the terms of the CC0 waiver." Other content keeps its own licence; software is usually GPL. The earlier "dataset-dependent" caveat did not apply to datasets.
