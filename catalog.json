@@ -1,9 +1,9 @@
 {
   "name": "Science Almanac",
   "description": "An open, versioned index of public scientific research data.",
-  "count": 8,
+  "count": 9,
   "by_status": {
-    "live": 8
+    "live": 9
   },
   "entries": [
     {
@@ -60,6 +60,59 @@
       "license": "CC0-1.0 (dataset-dependent; see individual collection terms)",
       "attribution": "CERN Open Data Portal",
       "notes": "Verified reachable this session (HTTP 200). Seeded as this vertical's first international (non-US) source per operator request to seed the new verticals international-first.\n"
+    },
+    {
+      "id": "eurostat-science-technology-innovation-database",
+      "type": "dataset",
+      "title": "Eurostat Science, Technology and Innovation Database",
+      "description": "Eurostat's official EU statistics on research and development expenditure and personnel, government R&D budgets, innovation in enterprises, patents, high-tech industries, and human resources in science and technology.\n",
+      "publisher": "Eurostat (European Commission)",
+      "jurisdiction": {
+        "scope": "regional-bloc",
+        "country": null
+      },
+      "topics": [
+        "research-and-development",
+        "innovation",
+        "patents",
+        "europe"
+      ],
+      "source": {
+        "canonical_url": "https://ec.europa.eu/eurostat/web/science-technology-innovation/database"
+      },
+      "access": {
+        "method": [
+          "web",
+          "api",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "tsv",
+        "xlsx",
+        "sdmx"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "EU member states (plus some EFTA and candidate countries)",
+        "temporal": "varies by dataset",
+        "cadence": "annual"
+      },
+      "license": "CC-BY-4.0 (Eurostat copyright notice and free re-use of data)",
+      "attribution": "Eurostat",
+      "notes": "Human-verified 2026-10-31: HTTP 200 (page title \"Database - Science, technology, and innovation - Eurostat\"). Eurostat's copyright notice (https://ec.europa.eu/eurostat/help/copyright-notice) licenses its content under CC BY 4.0. The topics in the description reflect Eurostat's usual STI tables and weren't checked dataset by dataset. API and bulk access go through Eurostat's general dissemination services.\n"
     },
     {
       "id": "nasa-exoplanet-archive",
