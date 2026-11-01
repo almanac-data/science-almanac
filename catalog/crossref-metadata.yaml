@@ -1,0 +1,45 @@
+id: crossref-metadata
+type: dataset
+title: Crossref Metadata (REST API and Public Data File)
+description: |
+  Metadata that Crossref members deposit for every Crossref DOI: bibliographic records for articles, books, preprints, datasets, grants and more, with references, funding, licence links, ORCID and ROR IDs, updates and retractions, and some abstracts. Open through a free REST API and an annual public data file.
+publisher: Crossref
+jurisdiction:
+  scope: international-ngo
+  country: null
+topics:
+- doi
+- scholarly-metadata
+- citations
+- scholarly-infrastructure
+source:
+  canonical_url: https://www.crossref.org/documentation/retrieve-metadata/
+access:
+  method:
+  - api
+  - bulk
+  - web
+  auth_required: false
+  auth_note: "No sign-up for the REST API; a mailto parameter puts requests in the 'polite pool'. Monthly snapshots are for paid Metadata Plus subscribers; the annual public data file is free."
+  rate_limit: null
+format:
+- json
+- jsonl
+- xml
+status: live
+status_since: '2026-11-01'
+status_source: curator
+observed:
+  checked: '2026-11-01'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: global
+  temporal: every DOI registered with Crossref; 2026 public data file covers records up to part of March 2026
+  cadence: daily
+license: "No copyright restrictions on almost all metadata; some abstracts may be under publisher or author copyright (Crossref REST API documentation)"
+attribution: Crossref metadata, via the Crossref REST API or the Crossref Public Data File (year)
+notes: |
+  Human-verified 2026-11-01: HTTP 200. The Metadata Retrieval page lists user interfaces, APIs (REST, XML, OAI-PMH, OpenURL, content negotiation) and bulk downloads: "We offer access to all of our metadata as bulk downloads for free... Annual public data file: Metadata for all Crossref content items in JSON format. Monthly snapshot: Metadata for all Crossref content items in JSON and XML formats, available to Metadata Plus subscribers." The public data file page (https://www.crossref.org/services/metadata-retrieval/public-data-file/) offers the "2026 Public data file": "this year the file weighs in at 208 GB and contains metadata for 180 million records, or all Crossref records registered up to and including part of March 2026", in JSON-lines .tar.gz. An anonymous call to https://api.crossref.org/works?rows=1 returned "total-results":188309402. Cadence daily refers to the API, which members update continuously (the blog says members register "around 37,000 records daily"); the public data file is annual. The XML formats belong to the XML API and Plus snapshots and weren't tested; rate limits weren't read.
+  Licence checked 2026-11-01: the REST API documentation (https://www.crossref.org/documentation/retrieve-metadata/rest-api/) says "No sign-up is required to use the REST API, and almost none of the metadata is subject to copyright, and you may use it for any purpose. Some abstracts contained in the metadata may be subject to copyright by publishers or authors." No formal licence (such as CC0) for the metadata was found; the CC BY 4.0 in the site's page metadata (dc:rights) is for the web pages, not the data.
