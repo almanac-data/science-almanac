@@ -1,0 +1,46 @@
+id: esa-gaia-archive
+type: dataset
+title: ESA Gaia Archive
+description: |
+  The European Space Agency's archive of Gaia mission data: astrometry, photometry and spectroscopy for nearly two billion stars, with positions, parallaxes, proper motions, radial velocities and astrophysical parameters (Gaia DR3 and the Focused Product Release), queryable by ADQL over TAP.
+publisher: European Space Agency (ESA), with the Gaia Data Processing and Analysis Consortium (DPAC)
+jurisdiction:
+  scope: regional-bloc
+  country: null
+topics:
+- astronomy
+- astrometry
+- stars
+- tap
+source:
+  canonical_url: https://gea.esac.esa.int/archive/
+access:
+  method:
+  - web
+  - api
+  - bulk
+  auth_required: false
+  auth_note: "Anonymous ADQL queries work; a free Gaia user account adds private tables and longer-running jobs (not tested)."
+  rate_limit: null
+format:
+- csv
+- ecsv
+- votable
+- fits
+status: live
+status_since: '2026-11-01'
+status_source: curator
+observed:
+  checked: '2026-11-01'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: global (all-sky)
+  temporal: Gaia DR3 (June 2022, 34 months of observations) and FPR (October 2023); DR4 announced for 2 December 2026
+  cadence: irregular
+license: CC-BY-NC-3.0-IGO (Gaia Data License, ESA Cosmos; commercial use governed by ESA's terms for space science archives)
+attribution: "European Space Agency (ESA) mission Gaia, processed by the Gaia Data Processing and Analysis Consortium (DPAC); cite the data release per https://www.cosmos.esa.int/web/gaia-users/credits"
+notes: |
+  Human-verified 2026-11-01: HTTP 200. Plain curl gets only a JavaScript loading page; headless Chromium renders it when it waits for DOMContentLoaded rather than network idle (network idle never settles, which explains the 60-second timeout reported on 2026-10-31). The rendered page reads "Welcome to the Gaia ESA Archive. Gaia is a European space mission providing astrometry, photometry, and spectroscopy of nearly 2000 million stars in the Milky Way", lists Gaia DR3, Gaia FPR and "Direct bulk download of Gaia data in ECSV format", and shows archive release v3.15.1. TAP checked: https://gea.esac.esa.int/tap-server/tap/availability answered "service is accepting queries", and an anonymous synchronous ADQL query (SELECT TOP 2 source_id, ra, dec FROM gaiadr3.gaia_source, FORMAT=csv) returned two rows. The ESA release page (https://www.cosmos.esa.int/web/gaia/release) lists DR3 (June 2022), FPR (10 October 2023) and "Gaia DR4 (based on 66 months of data) 2 December 2026". The votable and fits output formats are the usual TAP options and weren't tested; ecsv comes from the archive page; csv was tested.
+  Licence checked 2026-11-01: https://www.cosmos.esa.int/web/gaia-users/license reads "GAIA DATA LICENSE Gaia data are distributed under the CC BY-NC 3.0 IGO license. For details and guidelines concerning commercial use of the Gaia data, please see the Terms and Conditions for the use of data in the ESA space science archives." That licence is non-commercial. Jurisdiction regional-bloc: ESA is a European intergovernmental agency (not an EU body), following how copernicus-era5-reanalysis is recorded. Science-almanac should set reachability.headless for this entry.
