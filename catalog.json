@@ -1,9 +1,9 @@
 {
   "name": "Science Almanac",
   "description": "An open, versioned index of public scientific research data.",
-  "count": 11,
+  "count": 12,
   "by_status": {
-    "live": 11
+    "live": 12
   },
   "entries": [
     {
@@ -470,6 +470,58 @@
       "license": "public-domain (US Gov work)",
       "attribution": "National Center for Science and Engineering Statistics, National Science Foundation",
       "notes": "Human-verified 2026-10-31: HTTP 200. The page lists areas of interest (Innovation & Global Competitiveness, Research & Development Funding & Performance, Science & Engineering Workforce, STEM Education), a surveys catalog, a release schedule, and a data explorer. NCSES runs many surveys, each on its own schedule, so cadence is event. The formats are assumed from NCSES's usual table downloads and weren't checked.\n"
+    },
+    {
+      "id": "orcid-public-data-file",
+      "type": "dataset",
+      "title": "ORCID Public Data File",
+      "description": "ORCID's annual snapshot of all public data in the ORCID Registry: researcher record summaries plus their public activities (works, employment, education, funding, peer review), in XML. The bulk counterpart to ORCID's public API, and the reference set of researcher identifiers.\n",
+      "publisher": "ORCID, Inc.",
+      "jurisdiction": {
+        "scope": "international-ngo",
+        "country": null
+      },
+      "topics": [
+        "researchers",
+        "identifiers",
+        "scholarly-infrastructure",
+        "orcid"
+      ],
+      "source": {
+        "canonical_url": "https://info.orcid.org/documentation/integration-guide/working-with-bulk-data/",
+        "identifiers": {
+          "doi": "10.23640/07243.30375589.v1"
+        }
+      },
+      "access": {
+        "method": [
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "xml",
+        "tar.gz"
+      ],
+      "status": "live",
+      "status_since": "2026-11-01",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-11-01",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "global",
+        "temporal": "annual files 2013 onward; latest seen is the 2025 file (snapshot as of 1 October 2025)",
+        "cadence": "annual"
+      },
+      "license": "CC0-1.0 (ORCID Public Data File 2025 record on ORCID's figshare)",
+      "attribution": "ORCID Public Data File (year), ORCID, Inc., with the file's DOI (2025 file https://doi.org/10.23640/07243.30375589.v1)",
+      "notes": "Human-verified 2026-11-01: HTTP 200 to curl on the first request; repeat curl requests were then blocked by Cloudflare (\"Sorry, you have been blocked\"), and headless Chromium read the page. The page \"Working with the Public Data File\" links the annual files \"2025 ORCID Public Data File\" (https://doi.org/10.23640/07243.30375589.v1) back to 2020, and says \"From 2018, the file is provided only in XML format\" and that JSON can be made with the ORCID Conversion Library. The 2025 file's figshare record (https://api.figshare.com/v2/articles/30375589, published 2025-10-20) holds ORCID_2025_10_summaries.tar.gz (about 46 GB) and eleven activities archives (about 16 to 19 GB each). No 2026 file was listed on 2026-11-01. The DOI prefix 10.23640 and orcid.figshare.com are ORCID's own figshare space, so this is the publisher's copy, not a mirror. ORCID's public API and its BigQuery copy aren't covered by this entry.\nLicence checked 2026-11-01: the 2025 file's record says \"ORCID publishes this file once per year under a Creative Commons CC0 1.0 Universal public domain dedication. This means that, to the extent possible under law, ORCID has waived all copyright and related or neighbouring rights to the Public Data File\", and its licence field is CC0. The Public Data File Use Policy it points to (https://info.orcid.org/public-data-file-use-policy/) answered 429 with a Cloudflare challenge in headless Chromium, so that page wasn't read. ORCID needed a browser to answer after the first request; science-almanac may want reachability.headless for this entry.\n"
     },
     {
       "id": "usgs-earthquake-catalog",
