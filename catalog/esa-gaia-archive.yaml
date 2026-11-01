@@ -32,9 +32,11 @@ status_since: '2026-11-01'
 status_source: curator
 observed:
   checked: '2026-11-01'
-  reachable: null
-  http_status: null
-  final_url: null
+  reachable: true
+  http_status: 200
+  final_url: https://gea.esac.esa.int/archive/
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: global (all-sky)
   temporal: Gaia DR3 (June 2022, 34 months of observations) and FPR (October 2023); DR4 announced for 2 December 2026

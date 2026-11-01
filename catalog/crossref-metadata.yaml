@@ -31,9 +31,11 @@ status_since: '2026-11-01'
 status_source: curator
 observed:
   checked: '2026-11-01'
-  reachable: null
-  http_status: null
-  final_url: null
+  reachable: true
+  http_status: 200
+  final_url: https://www.crossref.org/documentation/retrieve-metadata/
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: global
   temporal: every DOI registered with Crossref; 2026 public data file covers records up to part of March 2026
