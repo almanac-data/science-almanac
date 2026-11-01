@@ -1,9 +1,9 @@
 {
   "name": "Science Almanac",
   "description": "An open, versioned index of public scientific research data.",
-  "count": 10,
+  "count": 11,
   "by_status": {
-    "live": 10
+    "live": 11
   },
   "entries": [
     {
@@ -60,6 +60,56 @@
       "license": "CC0-1.0 (CERN Open Data Portal terms of use; software under its own licences, often GPL)",
       "attribution": "CERN Open Data Portal",
       "notes": "Verified reachable this session (HTTP 200). Seeded as this vertical's first international (non-US) source per operator request to seed the new verticals international-first.\nLicence checked 2026-10-31: the terms of use (https://opendata.cern.ch/docs/terms-of-use) say \"All metadata and datasets in the CERN Open Data Portal are made available under the terms of the CC0 waiver.\" Other content keeps its own licence; software is usually GPL. The earlier \"dataset-dependent\" caveat did not apply to datasets.\n"
+    },
+    {
+      "id": "cern-zenodo",
+      "type": "dataset",
+      "title": "Zenodo",
+      "description": "CERN's general-purpose open research repository, where researchers deposit datasets, software, papers and other outputs of any discipline and get a DOI for each. A primary home for research data and code that has no subject repository.\n",
+      "publisher": "CERN (Zenodo)",
+      "jurisdiction": {
+        "scope": "multilateral",
+        "country": null
+      },
+      "topics": [
+        "repository",
+        "research-data",
+        "software",
+        "doi"
+      ],
+      "source": {
+        "canonical_url": "https://zenodo.org/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "api"
+        ],
+        "auth_required": false,
+        "auth_note": "Searching and downloading open records needs no account; depositing needs a free account, and the REST API uses a personal token for uploads.",
+        "rate_limit": "Rate limited (HTTP 429 on excess); OAI-PMH shares the REST API's limits per developers.zenodo.org (exact figures not read)"
+      },
+      "format": [
+        "json",
+        "xml"
+      ],
+      "status": "live",
+      "status_since": "2026-11-01",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-11-01",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "global",
+        "temporal": "2013-present (launch year from general knowledge, not checked)",
+        "cadence": "daily"
+      },
+      "license": "Metadata CC0-1.0 except email addresses (Zenodo policies); each deposited file under the licence its depositor chose",
+      "attribution": "Cite each record by its Zenodo DOI as the record page gives it; Zenodo, CERN",
+      "notes": "Human-verified 2026-11-01: HTTP 200. The home page shows featured communities (EU Open Research Repository, AAS Journals and others) and a notice: \"Scheduled maintenance: On Tuesday, November 3rd, Zenodo will be unavailable between 08:00 and 08:15 UTC for an infrastructure upgrade.\" An anonymous REST API call (https://zenodo.org/api/records?size=1) returned a total of 7611041 records, the newest created 2026-11-01; the OAI-PMH endpoint (https://zenodo.org/oai2d?verb=Identify) answered 200. The policies page says metadata is \"exported in several standard formats such as MARCXML, Dublin Core, and DataCite Metadata Schema\", and \"Access to metadata and data files is provided over standard protocols such as HTTP and OAI-PMH\". This entry catalogs the repository as a whole: its contents are deposited by third parties, so each record's own publisher is the depositor. Format lists the metadata exports only; deposited files come in any format. No bulk dump of the corpus was found.\nLicence checked 2026-11-01: https://about.zenodo.org/policies/ says \"Metadata access and reuse: Metadata is licensed under CC0, except for email addresses. All metadata is exported via OAI-PMH and can be harvested\" and \"Use and re-use is subject to the license under which the data objects were deposited.\" https://about.zenodo.org/terms/ says \"Unless specified otherwise, Zenodo metadata may be freely reused under the CC0 waiver\" and \"Users of content ('Users') shall respect applicable license conditions.\" The operator is recorded as CERN per the terms (\"hold CERN free and harmless\"); an OpenAIRE role wasn't checked.\n"
     },
     {
       "id": "eurostat-science-technology-innovation-database",
