@@ -1,0 +1,44 @@
+id: openalex
+type: dataset
+title: OpenAlex
+description: |
+  An open catalog of the global research system: scholarly works, authors, institutions, sources, publishers, funders and topics, linked by citations. Available through a REST API and as a free quarterly snapshot in a public S3 bucket.
+publisher: OpenAlex (OurResearch)
+jurisdiction:
+  scope: international-ngo
+  country: null
+topics:
+- scholarly-works
+- citations
+- research
+- bibliometrics
+source:
+  canonical_url: https://openalex.org/
+access:
+  method:
+  - api
+  - bulk
+  - s3
+  - web
+  auth_required: false
+  auth_note: "API works without a key but then shares a $0.10/day budget per IP address; a free account key gives $1/day of usage, with paid tiers above that. The snapshot is free to download."
+  rate_limit: "Usage-priced: free key $1/day, keyless $0.10/day per IP (from the API's own notice and the pricing page)"
+format:
+- json
+status: live
+status_since: '2026-11-01'
+status_source: curator
+observed:
+  checked: '2026-11-01'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: global
+  temporal: all years indexed (start year not checked)
+  cadence: quarterly
+license: CC0-1.0 (OpenAlex snapshot LICENSE.txt and pricing page)
+attribution: "OpenAlex; cite Priem, J., Piwowar, H., & Orr, R. (2022). OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts. ArXiv. https://arxiv.org/abs/2205.01833"
+notes: |
+  Human-verified 2026-11-01: HTTP 200 for https://openalex.org/ (title "OpenAlex: The open catalog to the global research system"; the page is a JavaScript app). Other pages on openalex.org, such as /about, return 403 to scripts and headless Chromium with "Looks like you're a bot — please use our free API instead"; record pages are served to scripts per https://help.openalex.org/llms.txt. An anonymous API call (https://api.openalex.org/works?per_page=1) returned "count": 329080310 with the notice "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day". The pricing page (https://help.openalex.org/access/pricing/) says "every account gets $1 of API usage per day for free", with pay-as-you-go and annual plans (Member $5,000/year and up). The snapshot release notes (https://openalex.s3.amazonaws.com/RELEASE_NOTES.txt) say "Public releases land on the second Wednesday of January, April, July and October (UTC)" and list RELEASE 2026-10-14 as the latest. The snapshot's other formats and the start year weren't checked. The publisher is recorded as OurResearch per the issue; ourresearch.org now redirects to openalex.org and the docs read didn't name the operating organisation, so that wasn't confirmed.
+  Licence checked 2026-11-01: the snapshot bucket's https://openalex.s3.amazonaws.com/LICENSE.txt is the full text of "CC0 1.0 Universal", and the pricing page says "the data is a public good, released under a CC0 public-domain license with no 'personal use only' carve-out and no permission to ask". Cached full-text PDFs (a separate paid sync service) keep their own licences and aren't covered by this entry.
