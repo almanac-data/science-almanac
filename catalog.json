@@ -45,7 +45,7 @@
       "status_since": "2026-07-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://opendata.cern.ch/",
@@ -97,7 +97,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://zenodo.org/",
@@ -151,7 +151,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.crossref.org/documentation/retrieve-metadata/",
@@ -206,7 +206,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://gea.esac.esa.int/archive/",
@@ -261,7 +261,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://ec.europa.eu/eurostat/web/science-technology-innovation/database",
@@ -315,7 +315,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 403,
         "final_url": "https://www.earthdata.nasa.gov/",
@@ -369,7 +369,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://exoplanetarchive.ipac.caltech.edu/",
@@ -422,7 +422,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://pds.nasa.gov/",
@@ -475,7 +475,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.ncbi.nlm.nih.gov/genbank/",
@@ -528,7 +528,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://reporter.nih.gov/",
@@ -580,7 +580,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://ncses.nsf.gov/",
@@ -633,7 +633,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://openalex.org/",
@@ -687,7 +687,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://info.orcid.org/documentation/integration-guide/working-with-bulk-data/",
@@ -741,7 +741,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://earthquake.usgs.gov/fdsnws/event/1/",
@@ -795,7 +795,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.rcsb.org/",
