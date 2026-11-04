@@ -37,6 +37,13 @@ observed:
   final_url: https://gea.esac.esa.int/archive/
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261017074851/https://gea.esac.esa.int/archive/
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-10-17'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 200).'
 coverage:
   spatial: global (all-sky)
   temporal: Gaia DR3 (June 2022, 34 months of observations) and FPR (October 2023); DR4 announced for 2 December 2026

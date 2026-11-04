@@ -37,6 +37,13 @@ observed:
   final_url: https://opendata.cern.ch/
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261104212147/https://opendata.cern.ch/
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-11-04'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now.'
 coverage:
   spatial: global (international collaboration; hosted at CERN, Switzerland/France)
   temporal: 2010-present
