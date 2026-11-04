@@ -35,6 +35,13 @@ observed:
   final_url: https://pds.nasa.gov/
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261023215918/https://pds.nasa.gov/
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-10-23'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0).'
 coverage:
   spatial: solar system bodies (mission-dependent)
   temporal: decades of planetary missions to present

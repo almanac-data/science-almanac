@@ -52,6 +52,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104212147/https://opendata.cern.ch/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "global (international collaboration; hosted at CERN, Switzerland/France)",
         "temporal": "2010-present",
@@ -104,6 +114,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104125821/https://zenodo.org/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "global",
         "temporal": "2013-present (launch year from general knowledge, not checked)",
@@ -158,6 +178,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261027040425/https://www.crossref.org/documentation/retrieve-metadata/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-10-27",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "global",
         "temporal": "every DOI registered with Crossref; 2026 public data file covers records up to part of March 2026",
@@ -213,6 +243,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261017074851/https://gea.esac.esa.int/archive/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-10-17",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 200)."
+        }
+      ],
       "coverage": {
         "spatial": "global (all-sky)",
         "temporal": "Gaia DR3 (June 2022, 34 months of observations) and FPR (October 2023); DR4 announced for 2 December 2026",
@@ -268,6 +308,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104213205/https://ec.europa.eu/eurostat/web/science-technology-innovation/database",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "EU member states (plus some EFTA and candidate countries)",
         "temporal": "varies by dataset",
@@ -322,6 +372,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261027063206/https://www.earthdata.nasa.gov/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-10-27",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "global",
         "temporal": "decades of satellite and airborne missions to present",
@@ -376,6 +436,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104213711/https://exoplanetarchive.ipac.caltech.edu/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "astronomical (all-sky)",
         "temporal": "discoveries to present",
@@ -429,6 +499,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261023215918/https://pds.nasa.gov/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-10-23",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "solar system bodies (mission-dependent)",
         "temporal": "decades of planetary missions to present",
@@ -482,6 +562,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261022135625/https://www.ncbi.nlm.nih.gov/genbank/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-10-22",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 523)."
+        }
+      ],
       "coverage": {
         "spatial": "global (all submitted organisms)",
         "temporal": "1982-present",
@@ -535,6 +625,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261103154217/https://reporter.nih.gov/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-03",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "United States (NIH and other HHS-funded research, worldwide recipients)",
         "temporal": "multiple decades of fiscal years",
